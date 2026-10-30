@@ -13,7 +13,7 @@ NC='\033[0m' # No Color
 # Show title
 echo -e "${CYAN}"
 echo "##################################################"
-echo "#    IPAudioPro Installation Script    #"
+echo "#    akw-arab-mystrea Installation Script    #"
 echo "#                   Version 00                  #"
 echo "##################################################"
 echo -e "${NC}"
@@ -43,9 +43,9 @@ rm -rf /tmp/*.tar.gz >/dev/null 2>&1
 echo -e "${GREEN}✓ Temporary files cleaned${NC}"
 
 # Settings
-plugin=MyStreamer
+plugin=akw-arab-mystrea
 version=00
-url=https://raw.githubusercontent.com/tarek1902/MyStreamer/refs/heads/main/MyStreamer.tar.gz
+url=https://raw.githubusercontent.com/tarek1902/akwam-arabsed-mysream/refs/heads/main/akw-arab-mystrea.tar.gz
 package=/var/volatile/tmp/$plugin-$version.tar.gz
 
 # Download and install
